@@ -16,7 +16,7 @@ if ($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
         if($row["userId"]===$uName && $row["password"]===$password){
             echo "<script> alert('Login successful!') </script>";
-            header('location:userDashboard.php');
+            header('location:adminDashboard.php');
         }else{
             echo "<script> alert('Login failed...') </script>";
             header('location:login.php');

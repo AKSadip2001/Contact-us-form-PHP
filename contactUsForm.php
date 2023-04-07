@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="CSS/contactUsForm.css">
 </head>
 <body>
-    <form method="POST" action="submissionForm.php" autocomplete="off">
+    <form method="POST" action="formSubmission.php" autocomplete="off">
 		<div class="container">
 			<div class="contact-box">
 				<div class="left">
